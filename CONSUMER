@@ -1,5 +1,5 @@
-{
-    "consumer_name": "leadspru",
+    {
+    "consumer_name": "takeblip-out",
     "topic_name": "opt-topic",
     "environment": "production",
     "feed": null,
@@ -83,3 +83,4 @@
     ,
     "ldap_user": "ext_jeimoren"
 }
+
