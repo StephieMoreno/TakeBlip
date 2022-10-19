@@ -77,10 +77,10 @@
     "modified_by_user": "ext_jeimoren",
     "creation_date": "2022-05-10 10:34:54",
     "modification_date": "2022-08-25 16:09:20",
-    "priority": "",
     "alert_model": null,
     "version": 5
     ,
-    "ldap_user": "ext_jeimoren"
+    "ldap_user": "ext_jeimoren",
+    "priority": "P3",
+    "business_unit": "cross"
 }
-
