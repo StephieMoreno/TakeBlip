@@ -1,0 +1,85 @@
+{
+    "consumer_name": "leadspru",
+    "topic_name": "opt-topic",
+    "environment": "production",
+    "feed": null,
+    "enrichment": {
+        "enabled": false,
+        "base_url": null,
+        "api_headers": {
+            "header": ""
+        },
+        "api_response_code_method": "",
+        "msg_components_url": {
+            "0": ""
+        },
+        "format_msg_components_url": {
+            "0": {
+                "BasePath": "",
+                "CutStart": 0,
+                "CutEnd": 0,
+                "ToUpper": false,
+                "ToLower": true
+            }
+        }
+    },
+    "test_users": {
+        "validate_test_user": null,
+        "user_test_exceptions": null
+    },
+    "kvs": {
+        "merge_news": false,
+        "kvs_name": ""
+    },
+    "keys": [
+        "data.cust_id"
+    ],
+    "firehose_feed": {
+        "enabled": false,
+        "firehos_name": "",
+        "bucket_s3": "",
+        "path_s3": ""
+    },
+    "elastic": {
+        "enabled": false,
+        "method": null,
+        "index": "",
+        "trf_method": null
+    },
+    "bigquery": {
+        "enabled": true,
+        "method": "BI_GENERIC_DOMAIN",
+        "project": "bi-meli",
+        "dataset": "FEED",
+        "table": "TAKEBLIPOUT"
+    },
+    "vault_kyc": {
+        "enabled": false,
+        "query": "",
+        "token": "",
+        "users": null
+    },
+    "transformation": {
+        "enabled": false,
+        "transformation_function": ""
+    },
+    "fury_consumer": {
+        "enabled": false,
+        "scope": "scope-mercadopago-0",
+        "rate_limit": 0,
+        "delivery_mode": "",
+        "bulk_length_limit": 0,
+        "filters": null,
+        "is_test": false,
+        "time_to_delay_messages": 0
+    },
+    "created_by_user": "ext_jeimoren",
+    "modified_by_user": "ext_jeimoren",
+    "creation_date": "2022-05-10 10:34:54",
+    "modification_date": "2022-08-25 16:09:20",
+    "priority": "",
+    "alert_model": null,
+    "version": 5
+    ,
+    "ldap_user": "ext_jeimoren"
+}
